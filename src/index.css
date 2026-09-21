@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import 'tailwindcss';
+
+@layer base {
+  :root {
+    --rn-surface-base:        #ffffff;
+    --rn-surface-subtle:      #f2f7f5;
+    --rn-surface-brand:       #006152;
+    --rn-surface-ink:         #253d36;
+    --rn-surface-accent:      #0068ff;
+
+    --rn-text-primary:        #253d36;
+    --rn-text-secondary:      #515b58;
+    --rn-text-muted:          #68736f;
+    --rn-text-brand:          #007c6b;
+    --rn-text-link:           #0050e0;
+    --rn-text-link-hover:     #0039bf;
+    --rn-text-on-dark:        #ffffff;
+    --rn-text-on-dark-secondary:  #b0c1bb;
+    --rn-text-on-brand:       #ffffff;
+    --rn-text-on-brand-secondary: #c0fffb;
+
+    --rn-border-subtle:       #d3d8d6;
+    --rn-border-control:      #838b88;
+    --rn-border-strong:       #68736f;
+    --rn-border-brand:        #007c6b;
+    --rn-border-on-dark:      #586e67;
+
+    --rn-action-primary-bg:       #0068ff;
+    --rn-action-primary-bg-hover: #0050e0;
+    --rn-action-primary-text:     #ffffff;
+    --rn-action-secondary-border: #253d36;
+    --rn-action-secondary-text:   #253d36;
+    --rn-action-on-dark-bg:       #c0d400;
+    --rn-action-on-dark-text:     #253d36;
+    --rn-action-on-brand-bg:      #ffffff;
+    --rn-action-on-brand-text:    #006152;
+
+    --rn-state-open-bg:     #e1fffb;
+    --rn-state-open-text:   #006152;
+    --rn-state-closed-bg:   #e7ecea;
+    --rn-state-closed-text: #515b58;
+    --rn-state-cat-bg:      #bed8ff;
+    --rn-state-cat-text:    #0039bf;
+
+    --rn-focus-ring:         #0068ff;
+    --rn-focus-ring-on-dark: #c0d400;
+  }
+
+  body {
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: var(--rn-surface-base);
+    color: var(--rn-text-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: 'Neue Haas Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--rn-surface-subtle);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--rn-border-subtle);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--rn-border-control);
+}

@@ -1,0 +1,10 @@
+{
+  "description": "This landing page showcases job offers, data repositories, and company partnerships, providing users with essential insights and resources for talent acquisition.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
